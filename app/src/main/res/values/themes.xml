@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.Practica3Uno" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/IPN</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+
+        <item name="android:statusBarColor">@color/IPN</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorSurface">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.Practica3Uno.Guinda" parent="Theme.Practica3Uno">
+        <item name="colorPrimary">@color/IPN</item>
+        <item name="colorPrimaryVariant">#4B1F3F</item>
+        <item name="colorSecondary">#FF4081</item>
+
+        <item name="android:statusBarColor">@color/IPN</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+
+    <style name="Theme.Practica3Uno.Azul" parent="Theme.Practica3Uno">
+        <item name="colorPrimary">@color/ESCOM</item>
+        <item name="colorPrimaryVariant">#002744</item>
+        <item name="colorSecondary">#03A9F4</item>
+
+        <item name="android:statusBarColor">@color/ESCOM</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/black</item>
+    </style>
+</resources>
