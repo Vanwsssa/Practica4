@@ -155,6 +155,41 @@ Creo mi funcion de checar la compatibilidad con el dato biometrico.
 En caso de que su huella no sea identificada se genera los siguientes casos.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/227eba9a-7955-43a6-9c8b-e099f3be523e" />
 
+Estos serian los cambios principales que implemente en mi DashboardFragment.kt, ahora veremos cuales fueron los cambios que realice en el archivo xml, de este mismo apartado.
+En este caso solo implemente un cuadro de texto que tiene el mensaje de accesso bloquedo.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/86236089-a259-4297-92c1-8f73ae8b4129" />
+
+De esta forma finalizo todo lo correspondiente al dato biomedico.
+Para el siguiente sensor que realice fue el de Sensor de Luz Ambiental.
+El cual mide la intensidad de la luz en el entorno. En la app muestra el valor en Lux (por ejemplo, si tapas el sensor superior del teléfono, el número baja, si lo pones bajo una lámpara este valor subira).
+
+En mi código de NotificationsFragment.kt, importo mi MainActivity para acceder a los datos estáticos y de esta forma puedo manejar mis funcionalidades.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/84642d21-e07f-4cc8-bd16-37b270cedfed" />
+
+Para la adaptacion al cambio de tema ingrese el valor que se tiene dentro del sistema.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/626bb3e3-b69e-4c28-9a2c-00d49dedd4fc" />
+
+Finalmente para el ultimo sensor seleccione el del acelerómetro que mide la fuerza de aceleración aplicada al dispositivo en los tres ejes físicos (X, Y, Z), incluyendo la gravedad.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/08a5f67b-e30d-43e2-88bb-b82a294b3532" />
+
+Para mi archivo xml tengo las siguientes modificaciones.
+
+El titulo de los sensores utilizados.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a39f80e-400b-4642-b79e-eb8eacefeb4f" />
+
+Los datos de luz.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/15cd3831-29a2-487c-bb3a-9b1dad86d55e" />
+
+Y finalmente los datos de acelerometro.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26a0b24d-6b51-467d-9ae5-3ffc3704aa8e" />
+
+
+
+
+
+
+
+
 
 
 
