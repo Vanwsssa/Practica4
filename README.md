@@ -126,3 +126,21 @@ Veo la parte de los cambios en mi pantalla de Recientes o Favoritos.
 
 Luego asigno una imagen de favoritos y se ve este archivo dentro de la lista.
 ![Imagen de WhatsApp 2025-11-08 a las 22 55 21_2c2c1271](https://github.com/user-attachments/assets/c0f048d8-04ac-48f1-9c36-e8c3830300fd)
+
+
+## Práctica 6 Manejo de sensores del dispositivo móvil
+---
+
+En este caso se nos solicito cumplir con almenos un ejercicio de los solicitados por el profesor. En nuestro caso seleccionamos el primer ejercicio de implementar los sensores.
+Como estamos utilizando la aplicación del gestor de archivos entonces uno de los sensores obligatorios es el de la autenticación biométrica para acceder a carpetas protegidas. Esto se refiere a que tenemos que ingresar nuestra huella deactilar para poder ingresar a la carpeta de archivos previamente seleccionada.
+
+Por tal motivo se mencionan los cambios más significativos que hice en mi proyecto.
+En el caso del AndroidManifest.xml, agregue dentro de los permisos el uso de datos biometricos.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a178525-7c9c-41a6-910f-eae48b4baab3" />
+
+Al tener estos permisos me dirijo a mi buil.gradle.kts (Module:app), ya que de esta manera podre sincronizar mi proyecto con Gradle Files y no presentar error al momento de  ingresarlo en mi AndroidManifest.
+
+Es importante mencionar que este se coloca dentro de mis dependencias.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e6f8253-711f-401b-ac4c-d976a97f6f1d" />
+
+
