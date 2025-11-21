@@ -143,4 +143,18 @@ Al tener estos permisos me dirijo a mi buil.gradle.kts (Module:app), ya que de e
 Es importante mencionar que este se coloca dentro de mis dependencias.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2e6f8253-711f-401b-ac4c-d976a97f6f1d" />
 
+Al tener estas implemetaciones correctas entonces ya puedo empezar a modificar mis códigos antes desarrollados.
+Primero tengo el DashboardFragment.kt.
+
+Verificamos si el contexto es válido antes de checar biometría
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d0350e64-c2f9-413c-8bc8-8ad8f4d6adbc" />
+
+Creo mi funcion de checar la compatibilidad con el dato biometrico.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d8ae4a1f-7867-4743-a251-1a7332cc01bf" />
+
+En caso de que su huella no sea identificada se genera los siguientes casos.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/227eba9a-7955-43a6-9c8b-e099f3be523e" />
+
+
+
 
