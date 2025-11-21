@@ -1,87 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout
-
     xmlns:android="http://schemas.android.com/apk/res/android"
-
     xmlns:app="http://schemas.android.com/apk/res-auto"
-
     android:layout_width="match_parent"
-
     android:layout_height="match_parent"
-
     android:padding="16dp">
 
-
-
+    <!-- Título Principal -->
     <TextView
-
         android:id="@+id/textTitle"
-
         android:layout_width="wrap_content"
-
         android:layout_height="wrap_content"
-
         android:text="Modo IPN o ESCOM"
-
         android:textSize="20sp"
-
         android:textStyle="bold"
-
         android:layout_marginBottom="16dp"
-
-        android:textColor="?attr/colorOnSurface" app:layout_constraintTop_toTopOf="parent"
-
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent" />
 
-
-
+    <!-- Botones (Sin cambios) -->
     <Button
-
         android:id="@+id/btnGuinda"
-
         android:layout_width="0dp"
-
         android:layout_height="wrap_content"
-
         android:text="Tema Guinda"
-
         style="@style/Widget.MaterialComponents.Button"
-
-        android:backgroundTint="@color/IPN" app:layout_constraintTop_toBottomOf="@id/textTitle"
-
+        android:backgroundTint="@color/IPN"
+        app:layout_constraintTop_toBottomOf="@id/textTitle"
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
-
         android:layout_marginTop="16dp"/>
-
-
 
     <Button
-
         android:id="@+id/btnAzul"
-
         android:layout_width="0dp"
-
         android:layout_height="wrap_content"
-
         android:text="Tema Azul"
-
         style="@style/Widget.MaterialComponents.Button"
-
         android:backgroundTint="@color/ESCOM"
-
         app:layout_constraintTop_toBottomOf="@id/btnGuinda"
-
         app:layout_constraintStart_toStartOf="parent"
-
         app:layout_constraintEnd_toEndOf="parent"
-
         android:layout_marginTop="16dp"/>
 
+    <Button
+        android:id="@+id/btnSystem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Adaptación Automática (Sistema)"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        app:layout_constraintTop_toBottomOf="@id/btnAzul"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"/>
 
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorOnSurface"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintTop_toBottomOf="@id/btnSystem" />
+
+    <!-- Título Sensores -->
+    <TextView
+        android:id="@+id/textSensorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visualización de Sensores"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Datos Luz -->
+    <TextView
+        android:id="@+id/textLightData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Luz Ambiental (Lux): N/A"
+        android:layout_marginTop="16dp"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintTop_toBottomOf="@id/textSensorTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.6"
+        android:layout_marginEnd="8dp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        app:layout_constraintTop_toTopOf="@id/textLightData"
+        app:layout_constraintBottom_toBottomOf="@id/textLightData"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Datos Acelerómetro -->
+    <TextView
+        android:id="@+id/textAccelData"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Acelerómetro (X, Y, Z): N/A"
+        android:layout_marginTop="16dp"
+        android:textColor="?attr/colorOnSurface"
+        app:layout_constraintTop_toBottomOf="@id/textLightData"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.6"
+        android:layout_marginEnd="8dp"/>
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchAccel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        app:layout_constraintTop_toTopOf="@id/textAccelData"
+        app:layout_constraintBottom_toBottomOf="@id/textAccelData"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
