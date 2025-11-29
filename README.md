@@ -183,8 +183,37 @@ Los datos de luz.
 Y finalmente los datos de acelerometro.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26a0b24d-6b51-467d-9ae5-3ffc3704aa8e" />
 
+Una vez que se lograron realizar los cambios pertinentes para el cumplimiento de la practica 6, podremos visualizar en nuestra  aplicación la implementación de los sensores.
 
+Los cambios que implementamos es en la pantalla de "Recientes o Favoritos", donde no podremos ingresar de forma inmediata sino que antes se solicita ingresar por el escaner de huella digital. Es importante mecional, que en esta parte no permite la toma de captiras de pantalla por seguridad.
+![Imagen de WhatsApp 2025-11-29 a las 14 17 42_b47d91ae](https://github.com/user-attachments/assets/b93bebd2-745b-4582-828b-fe79b9b42628)
 
+Aquí se observa como solicita ingresar la huella digital.
+![Imagen de WhatsApp 2025-11-29 a las 14 18 26_a4449703](https://github.com/user-attachments/assets/f6e1fb10-055b-4d20-8f94-a25848e7921f)
+
+Al ingresar la huella digital, te muestra el despliegue de los archivos de tus documentos favoritos.
+![Imagen de WhatsApp 2025-11-29 a las 14 17 42_0ff45f25](https://github.com/user-attachments/assets/4dcabaa7-6ab8-4cb8-a277-6a48338adcc9)
+
+En la pantalla de "Temas de cambio", se ve la implementación de los sensores. En este caso tanto la luz ambiental y el acelerómetro estan activados y se ve el cambio de valores en tiempo real.
+![Imagen de WhatsApp 2025-11-29 a las 14 17 43_b4908e31](https://github.com/user-attachments/assets/143ee06a-2e23-4054-867e-9ba594bd1aa3)
+
+Aqui deshabilito el sensor de "Luz Ambiental".
+![Imagen de WhatsApp 2025-11-29 a las 14 17 44_ef857136](https://github.com/user-attachments/assets/c6deb219-738e-4fef-a204-10f2af726bf1)
+
+Y aqui deshabilito el sensor de "Acelerómetro".
+![Imagen de WhatsApp 2025-11-29 a las 14 17 44_44d37de5](https://github.com/user-attachments/assets/b693f5b3-a0ee-46e4-90fd-ed0335d9bd7f)
+
+Con el boton de tema azul se cambio del color en la barra de navegación.
+![Imagen de WhatsApp 2025-11-29 a las 14 17 44_661a29c3](https://github.com/user-attachments/assets/a7bc1a33-01e2-471a-a915-c449a97c00d0)
+
+En el caso del boton de "Adaptación automática" se adapatara dependiendo si en mi telefono tengo el modo oscuro o claro. Para esta prueba mi telefono se encuentra en el modo oscuro.
+![Imagen de WhatsApp 2025-11-29 a las 14 17 45_6eac1fdf](https://github.com/user-attachments/assets/2f46a89a-00b0-4036-a44d-a30a507e5a62)
+
+Entonces al momento de dar clic sobre el boton de forma automatica nos mueve al modo oscuro.
+![Imagen de WhatsApp 2025-11-29 a las 14 17 45_1eb0b923](https://github.com/user-attachments/assets/2a9c2cd7-b5c3-44c9-a267-f878c0a2aadb)
+
+Para ver que si funciona en la pantalla de autenticación en modo oscuro, lo compruebo desde otro telefono.
+![Imagen de WhatsApp 2025-11-29 a las 14 18 39_58ed8964](https://github.com/user-attachments/assets/c511b02f-8a39-4552-9e3c-e23a2da20518)
 
 
 
